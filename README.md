@@ -1,12 +1,5 @@
 # Module-2-Challenge
 
-## Description
-The **Advanced-CSS-Portfolio** project is the second homework assignment of the March 2021 cohort from University of New Hampshire's full-stack coding bootcamp. 
-
-Building a benchmark for our future career as a web developer, this project focuses on applying recently learned core skills with advanced CSS. Built for ourselves and potential employers, this project contains a portfolio gallery of my most recent GitHub deployed repositories, a short story about myself, social media links, and contact information.
-
-This project is for an employer to review samples of work and assess my candidacy for an open position.
-
 ## Acceptance Criteria
 ```
 GIVEN I need to sample a potential employee's previous work
