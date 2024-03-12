@@ -20,8 +20,8 @@ p {
 /**Header Starts**/
 .header {
     padding: 20px;
-    font-family: 'Arial', 'Helvetica', 'sans-serif';
-    background-color: #44ad77;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #69c79e;
     color: #fff;
 }
 
@@ -36,7 +36,7 @@ p {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family:'Arial, Helvetica, sans-serif';
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
@@ -46,15 +46,95 @@ p {
 
 .header nav ul li {
     display: inline-block;
-    margin-left: 25px;
+    margin-left: 30px;
     color:#000000;
+    border: 1px solid #fff;
+    border-radius: 5px;
+     padding: 5px;
 }
 
+/*Change navigation tabs background color to #e0e0e0*/
+li a:hover {
+background-color: #e0e0e0;
+color:#000000
+}
+
+/*Will add image to top header*/
 .main-image{
     height: 200px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("./DgJlyzfXcAEXqAu.jpg");
+    background-image: url("./image-1.jpg");
     background-size:cover;
     background-position: center;
+    }
+
+/**Content**/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+/**Will make image float on the right side of the About Me Section**/
+.float-image2 {
+    float: right;
+    margin-left: 250px;
+}
+/**Will add image of me to this section**/
+.AboutMe img {
+    max-height: 225px;
+    position: relative;
+    bottom: 42px;
+    right: 70px;
+    border-radius: 50%; 
+}
+.AboutMe {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 250px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #68ebcf;
+    color: #ffffff;
+    border-style: solid;
+    border-width: medium;
+}
+
+.Work {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #68ebcf;
+    color: #ffffff;
+    border-style: solid;
+    border-width: medium;
+}
+
+.Resume {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #68ebcf;
+    color: #ffffff;
+    border-style: solid;
+    border-width: medium;
+}
+
+/**Footer Contact Me Info**/
+.Contact-Me {
+    padding: 30px;
+    clear: both;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #69c79e;
+}
+
+.Contact-Me ul{
+    display: inline;
+    margin:30px;
+}
+.Contact-Me h2 {
+    font-size: 20px;
+    text-align:start;
+    margin: 20px
 }
