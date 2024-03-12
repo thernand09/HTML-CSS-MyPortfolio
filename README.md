@@ -19,3 +19,6 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Screenshot
 ![ScreenShot Image](./Screenshot%202024-03-11%20233942.png)
+
+*[GitHub Repo] (https://github.com/thernand09/HTML-CSS-MyPortfolio/settings/pages)
+*[Deployed Application] (https://thernand09.github.io/HTML-CSS-MyPortfolio/)
